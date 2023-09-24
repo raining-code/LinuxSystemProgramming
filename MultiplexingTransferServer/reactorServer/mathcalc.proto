@@ -1,0 +1,14 @@
+syntax="proto3";
+package mathcalc;//命名空间
+message Request{
+    int32 leftNum=1;//左操作数
+    int32 rightNum=2;//右操作数
+    string op=3;//操作符
+}
+message Response{
+    int32 leftNum=1;//左操作数
+    int32 rightNum=2;//右操作数
+    string op=3;//操作符
+    bool flag=4;//结果是否合法
+    int32 ans=5;//结果
+}

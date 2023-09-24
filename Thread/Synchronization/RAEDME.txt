@@ -1,0 +1,3 @@
+synchronization:同步
+thread synchronization:线程同步
+Synchronization.c在进行编译时,使用-D选项指定宏
